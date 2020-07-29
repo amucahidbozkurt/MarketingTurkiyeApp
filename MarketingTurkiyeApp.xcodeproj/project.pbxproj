@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF26B008248506A100FFC363 /* SpeakersSliderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF26B007248506A100FFC363 /* SpeakersSliderCollectionViewCell.swift */; };
+		CF26B00A2485093C00FFC363 /* FooterMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF26B0092485093C00FFC363 /* FooterMenuTableViewCell.swift */; };
+		CF26B00C24850FFD00FFC363 /* FooterMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF26B00B24850FFD00FFC363 /* FooterMenuModel.swift */; };
+		CF367C132477AF350061FAF8 /* SpeakerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF367C122477AF350061FAF8 /* SpeakerCollectionViewCell.swift */; };
+		CF367C152477B2170061FAF8 /* SpeakerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF367C142477B2170061FAF8 /* SpeakerModel.swift */; };
 		CFDA0F5D247501E900062C13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA0F5C247501E900062C13 /* AppDelegate.swift */; };
 		CFDA0F5F247501E900062C13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA0F5E247501E900062C13 /* SceneDelegate.swift */; };
 		CFDA0F61247501E900062C13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA0F60247501E900062C13 /* ViewController.swift */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF26B007248506A100FFC363 /* SpeakersSliderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakersSliderCollectionViewCell.swift; sourceTree = "<group>"; };
+		CF26B0092485093C00FFC363 /* FooterMenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterMenuTableViewCell.swift; sourceTree = "<group>"; };
+		CF26B00B24850FFD00FFC363 /* FooterMenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterMenuModel.swift; sourceTree = "<group>"; };
+		CF367C122477AF350061FAF8 /* SpeakerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerCollectionViewCell.swift; sourceTree = "<group>"; };
+		CF367C142477B2170061FAF8 /* SpeakerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerModel.swift; sourceTree = "<group>"; };
 		CFDA0F59247501E900062C13 /* MarketingTurkiyeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarketingTurkiyeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFDA0F5C247501E900062C13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFDA0F5E247501E900062C13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +69,11 @@
 				CFDA0F5C247501E900062C13 /* AppDelegate.swift */,
 				CFDA0F5E247501E900062C13 /* SceneDelegate.swift */,
 				CFDA0F60247501E900062C13 /* ViewController.swift */,
+				CF367C142477B2170061FAF8 /* SpeakerModel.swift */,
+				CF26B00B24850FFD00FFC363 /* FooterMenuModel.swift */,
+				CF367C122477AF350061FAF8 /* SpeakerCollectionViewCell.swift */,
+				CF26B007248506A100FFC363 /* SpeakersSliderCollectionViewCell.swift */,
+				CF26B0092485093C00FFC363 /* FooterMenuTableViewCell.swift */,
 				CFDA0F62247501E900062C13 /* Main.storyboard */,
 				CFDA0F65247501ED00062C13 /* Assets.xcassets */,
 				CFDA0F67247501ED00062C13 /* LaunchScreen.storyboard */,
@@ -138,8 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF367C152477B2170061FAF8 /* SpeakerModel.swift in Sources */,
+				CF26B008248506A100FFC363 /* SpeakersSliderCollectionViewCell.swift in Sources */,
 				CFDA0F61247501E900062C13 /* ViewController.swift in Sources */,
+				CF367C132477AF350061FAF8 /* SpeakerCollectionViewCell.swift in Sources */,
 				CFDA0F5D247501E900062C13 /* AppDelegate.swift in Sources */,
+				CF26B00C24850FFD00FFC363 /* FooterMenuModel.swift in Sources */,
+				CF26B00A2485093C00FFC363 /* FooterMenuTableViewCell.swift in Sources */,
 				CFDA0F5F247501E900062C13 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
